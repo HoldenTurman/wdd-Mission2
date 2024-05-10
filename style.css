@@ -1,0 +1,87 @@
+body {
+    background-color: white;
+}
+
+
+h1 {
+    font-size: 60px;
+    font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-top: 150px;
+    line-height: 1.5;
+    text-transform: uppercase;
+}
+
+h2 {
+    text-align: center;
+    color: #006eb6;
+    text-transform: uppercase;
+    line-height: 1.5;
+}
+
+hr {
+    width: 40%;
+}
+
+main {
+    max-width: 600px;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+
+
+p {
+    font-size: 20px;
+    margin-top: 50px;
+    
+}
+
+
+
+ol {
+    font-size: 20px;
+    line-height: 2.5;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    width: 200px;
+}
+
+/* Dark Mode */
+
+label {
+    position: absolute;
+    width: 45px;
+    height: 22px;
+    border: 2px solid;
+    border-radius: 20px;
+}
+
+label:before {
+    position: absolute;
+    content: "";
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #333;
+    cursor: pointer;
+    left: 1px;
+    top: 1px;
+    transition: 0.4s;
+}
+
+label.active:before {
+    left: 24px;
+    background: #fff;
+}
+
+body.night {
+    background: #333;
+    color: #fff;
+}
